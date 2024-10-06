@@ -1,0 +1,7 @@
+1 29084 Collect.exe.exe C:\CSSO_Tema3\Collect.exe\x64\Debug\Collect.exe.exe
+1 29084 ntdll.dll C:\Windows\SYSTEM32\ntdll.dll
+1 29084 KERNEL32.DLL C:\Windows\System32\KERNEL32.DLL
+1 29084 KERNELBASE.dll C:\Windows\System32\KERNELBASE.dll
+1 29084 apphelp.dll C:\Windows\SYSTEM32\apphelp.dll
+1 29084 VCRUNTIME140D.dll C:\Windows\SYSTEM32\VCRUNTIME140D.dll
+1 29084 ucrtbased.dll C:\Windows\SYSTEM32\ucrtbased.dll
