@@ -1,0 +1,20 @@
+﻿  CSSO_Tema2.cpp
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(61,90): error C2110: '+': cannot add two pointers
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(101,95): error C2110: '+': cannot add two pointers
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,103): error C2110: '+': cannot add two pointers
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,34): warning C4477: 'fprintf' : format string '%ls' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'DWORD'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,34): warning C4313: 'fprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,34): warning C4473: 'fprintf' : not enough arguments passed for format string
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,34): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(103,34): message : the missing variadic argument 2 is required by format string '%d'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(139,70): error C2101: '&' on constant
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(139,16): error C2664: 'LSTATUS RegEnumKeyExW(HKEY,DWORD,LPWSTR,LPDWORD,LPDWORD,LPWSTR,LPDWORD,PFILETIME)': cannot convert argument 4 from 'int *' to 'LPDWORD'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(139,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winreg.h(632,1): message : see declaration of 'RegEnumKeyExW'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(139,16): message : while trying to match the argument list '(HKEY, DWORD, wchar_t [260], int *, int, int, int, int)'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(141,26): error C2664: 'FILE *_wfopen(const wchar_t *,const wchar_t *)': cannot convert argument 1 from 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' to 'const wchar_t *'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(141,125): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h(133,28): message : see declaration of '_wfopen'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(141,26): message : while trying to match the argument list '(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>, const wchar_t [2])'
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(167,98): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ingrid\Desktop\CSSO_Tema2\CSSO_Tema2\CSSO_Tema2.cpp(93,21): error C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
