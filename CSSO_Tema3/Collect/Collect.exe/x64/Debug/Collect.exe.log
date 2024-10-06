@@ -1,0 +1,7 @@
+﻿  Collect.exe.cpp
+C:\CSSO_Tema3\Collect.exe\Collect.exe\Collect.exe.cpp(24,12): warning C4101: 'j': unreferenced local variable
+C:\CSSO_Tema3\Collect.exe\Collect.exe\Collect.exe.cpp(24,9): warning C4101: 'i': unreferenced local variable
+C:\CSSO_Tema3\Collect.exe\Collect.exe\Collect.exe.cpp(164,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\CSSO_Tema3\Collect.exe\Collect.exe\Collect.exe.cpp(216,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\CSSO_Tema3\Collect.exe\Collect.exe\Collect.exe.cpp(272,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Collect.exe.vcxproj -> C:\CSSO_Tema3\Collect.exe\x64\Debug\Collect.exe.exe
