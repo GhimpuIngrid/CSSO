@@ -1,0 +1,47 @@
+CSSO-Lab1
+
+#include <windows.h>
+#include <studio.h>
+
+int mail(){
+
+	Handle myFile = CreateFile("path", GENERIC_READ, NULL, NULL, 	OPEN_EXISTING,);
+
+	if(myFile == INVALID_HANDLE_VALUE)
+	{
+		printf("Am o eroare la deschiderea fisierului input.txt. Cod 	eroare: %d\n", GetLastError());
+
+		return 0;
+		///tools -> error LookUp -> introducem nr erorii
+	}
+
+	char myBuffer[200];
+	memset(myBuffer, 0, 200);!!!!!
+	DWORD bytesCititi;
+
+	if(ReadFile(myFile, myBuffer, 200, &bytesCititi, NULL) == 0)
+	{
+		prinf("Am o eroare la ReadFile!! Cod eroare %d\n", GetLastEroror());
+		CloseHandle(myFile);
+		return 0;
+
+	}
+	printf("Am reusit sa citesc din fisier %d caractere. Buffer: %s\n", bytesCititi, myBuffer);
+
+	system("pause");
+	return 0;
+
+}
+
+
+Enumerare continut director:
+
+Un apel de FindFirstFile care ne returneaza Handle -> II.1
+Apeluri multiple FindNextFile ->II.2
+Inchidere FindClose -> II.3
+
+(II1, II2, II3 din caiet)
+
+COD SURSA DE AZI: shorturl.at/lFHK1
+
+
